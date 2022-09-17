@@ -56,9 +56,10 @@ h2 {
 .portfolio img {
     opacity:0.5;
     transition: 1s ease;
-    max-height: 200px;
+    max-height: 100px;
     display: block;
     border: 5px solid #268aee;
+    margin-right: 20px;
 }
 
 .portfolio img:hover {
