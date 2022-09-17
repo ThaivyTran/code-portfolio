@@ -34,7 +34,7 @@ nav a {
 h2 {
     font-size: 30px;
     color: mediumpurple;
-    padding-top:1px;
+    padding-top: 2px;
 }
 
 .about-me {
@@ -49,11 +49,11 @@ h2 {
     border: 5px solid #268aee;
 }
 
-.projects {
+.portfolio {
     padding: 20px;
 }
 
-.projects img {
+.portfolio img {
     opacity:0.5;
     transition: 1s ease;
     max-height: 200px;
@@ -61,7 +61,7 @@ h2 {
     border: 5px solid #268aee;
 }
 
-.projects img:hover {
+.portfolio img:hover {
     opacity:1;
     transition: 1s ease;
 }
