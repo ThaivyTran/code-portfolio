@@ -1,58 +1,106 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 body {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #000000;
-    margin: 0;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-    color: #268aee;
-
-}
-
-.banner {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("https://i.ibb.co/t2sHC5G/1.png");
-    background-size: cover;
-    background-position: center;
+    color: #1b5299;
+    font-family: 'times new roman';
+    font-size: 18px;
+    background-image: url('https://i.ibb.co/K6qkJn6/v617batch2-bb-01-technology.png');
+    background-repeat: none;
+    background-size: 2733px 3284px;
 }
 
 nav {
-    display: flex;
-    background-color: #3e3e3e;
+    width:750px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 10px;
 }
+
+nav a:hover {
+    color: #694d75;
+}
+
+nav ul {
+    display: inline-block;
+    font-size: 24px;
+    width: 150px;
+    list-style-type: none;
+} 
 
 nav a {
-    color: #13293d;
-    padding: 14px 20px;
+    color: #1b5299;
+    padding: 10px 10px;
     text-decoration: none;
-    text-align: center;
+} 
+
+h2 {
+    font-size: 30px;
+    color: mediumpurple;
+    padding-top:1px;
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-  aside {
-    flex: 1;
-    background-color: #13293d;
+.about-me {
     padding: 20px;
 }
-  
+
+.about-me img {
+    max-height: 200px;
+    float: left;
+    display: block;
+    margin-right: 20px;
+    border: 5px solid #268aee;
+}
+
+.projects {
+    padding: 20px;
+}
+
+.projects img {
+    opacity:0.5;
+    transition: 1s ease;
+    max-height: 200px;
+    display: block;
+    border: 5px solid #268aee;
+}
+
+.projects img:hover {
+    opacity:1;
+    transition: 1s ease;
+}
+
+.contact {
+    padding: 20px;
+}
+
+.contact img {
+    opacity:0.5;
+    transition: 1s ease;
+    padding: 20px;
+}
+
+.contact img:hover {
+    opacity:1;
+    transition: 1s ease;
+}
+
 footer {
     padding: 20px;
     text-align: center;
-    background: #13293d;
     color: #268aee;
 }
- 
+
+
+@media screen and (max-width: 768px) {
+    header, nav
+     {
+      flex-direction: column;
+    }
+  
+    .about-me {
+      padding-right: 0;
+    }
+  
+    .contact {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
