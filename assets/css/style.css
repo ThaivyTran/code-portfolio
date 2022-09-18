@@ -31,6 +31,8 @@ nav a:hover {
     color: #694d75;
 }
 
+/* end of header and nav links */
+
 h1 {
     font-size: 30px;
     color: mediumpurple;
@@ -50,13 +52,15 @@ h1 {
     border: 5px solid #268aee;
 }
 
+/* end of about me */
+
 .portfolio {
     padding: 20px;
 }
 
 .portfolio img {
-    opacity:0.5;
-    transition: 1s ease;
+    opacity:0.5; /* when not hovered over img transparency is 50% */
+    transition: 1s ease; /* timing for transition */
     max-height: 100px;
     display: block;
     border: 5px solid #268aee;
@@ -65,8 +69,10 @@ h1 {
 
 .portfolio img:hover {
     opacity: 1;
-    transition: 1s ease;
+    transition: 1s ease; 
 }
+
+/* end of portfolio */
 
 .contact {
     padding: 20px;
@@ -81,8 +87,10 @@ h1 {
 
 .contact img:hover {
     opacity:1;
-    transition: 1s ease;
+    transition: 1s ease; 
 }
+
+/* end of contact */
 
 footer {
     padding: 20px;
@@ -90,13 +98,14 @@ footer {
     color: #268aee;
 }
 
+/* end of footer */
 
 @media screen and (max-width: 768px) {
     body, header, nav {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    max-width: 100%; 
+    text-align: center; /* when on mobile all text goes centered */
+    max-width: 50%; 
     width: auto; 
     height: auto;
     }
@@ -117,3 +126,4 @@ footer {
     }
   }
   
+/* end of media */
