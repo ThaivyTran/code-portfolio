@@ -27,14 +27,14 @@ nav a {
 } 
 
 nav a:hover {
-    color: mediumvioletred;
+    color: hotpink;
 }
 
 /* end of header and nav links */
 
 h1 {
     font-size: 30px;
-    color: mediumvioletred;
+    color: hotpink;
     padding-top: 2px;
 }
 
