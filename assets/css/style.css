@@ -1,7 +1,7 @@
 body {
-    color: #1b5299;
-    font-family: 'CutiveMono-Regular' 'Georgia';
+    font-family: 'CutiveMono''Georgia';
     font-size: 18px;
+    color: #6f0cfb;
     background-image: url('https://i.ibb.co/K6qkJn6/v617batch2-bb-01-technology.png');
     background-size: 2733px 3284px;
 }
@@ -21,20 +21,20 @@ nav ul {
 } 
 
 nav a {
-    color: #1b5299;
+    color: #268aee;
     padding: 10px 10px;
     text-decoration: none;
 } 
 
 nav a:hover {
-    color: #694d75;
+    color: #bc52c9;
 }
 
 /* end of header and nav links */
 
 h1 {
     font-size: 30px;
-    color: mediumpurple;
+    color: #bc52c9;
     padding-top: 2px;
 }
 
@@ -62,7 +62,8 @@ h1 {
     transition: 1s ease; /* timing for transition */
     max-height: 100px;
     display: block;
-    border: 5px solid #268aee;
+    border: 5px solid #268aee;;
+    margin: 5px solid #268aee;
     margin-right: 20px;
 }
 
