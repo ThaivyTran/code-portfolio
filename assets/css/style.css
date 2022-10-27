@@ -41,6 +41,16 @@ h1 {
     flex-wrap: wrap;
 }
 
+b {
+    color: hotpink;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .about-me {
     padding: 20px;
     margin-top: 40px;
@@ -66,7 +76,7 @@ h1 {
     max-height: 100px;
     display: block;
     border: 5px solid #268aee;
-    margin-right: 20px;
+    margin: 20px;
 }
 
 .portfolio img:hover {
@@ -75,6 +85,27 @@ h1 {
 }
 
 /* end of portfolio */
+
+.projects {
+    padding: 20px;
+}
+
+.projects img {
+    opacity:0.5; /* when not hovered over img transparency is 50% */
+    transition: 1s ease; /* timing for transition */
+    max-height: 100px;
+    display: block;
+    border: 5px solid #268aee;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.projects img:hover {
+    opacity: 1;
+    transition: 1s ease; 
+}
+
+/* end of projects */
 
 .contact {
     padding: 20px;
