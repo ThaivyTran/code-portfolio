@@ -6,6 +6,11 @@ body {
     color: #6f0cfb;
 }
 
+::selection { 
+	background-color: #6f0cfb;
+	color: white;
+}
+
 nav {
     width:750px;
     margin: 0 auto;
