@@ -138,58 +138,76 @@ footer {
 
 /* end of footer */
 
-/* Tablets - header changes color */
+/* Tablets */
 @media screen and (max-width: 992px) {
-    body, header, nav {
-    display: flex;
-    flex-direction: column;
-    text-align: center; /* when on mobile all text goes centered */
-    max-width: 100%; 
-    width: auto; 
-    height: auto;
+    * {
+        justify-content: center;
     }
+    h1 {
+        font-size: 25px;
+    }
+    b, p {
+        font-size: 15px;
+    }
+    header img {
+        max-width: 100%;
+        height: auto;
+    }
+    nav {
+        padding: 1px 1px 1px 1px;
+        width: auto;
+    }
+    nav ul {
+        font-size: 20px;
+    }
+}
   
-    .about-me {
-        width: 100%;
-        text-align: center;
-    }
-
-    .portfolio {
-        width: 100%;
-        text-align: center;
-      }
-  
-    .contact {
-      width: 100%;
-      text-align: center;
-    }
-  }
-
+  /* Large smartphones */
 @media screen and (max-width: 768px) {
-    body, header, nav {
-    display: flex;
-    font-size: 8px;
-    flex-direction: column;
-    text-align: center; /* when on mobile all text goes centered */
-    max-width: 50%; 
-    width: auto; 
-    height: auto;
+    * {
+        justify-content: center;
     }
+    h1 {
+        font-size: 25px;
+    }
+    b, p {
+        font-size: 15px;
+    }
+    header img {
+        max-width: 100%;
+        height: auto;
+    }
+    nav {
+        padding: 1px 1px 1px 1px;
+        width: auto;
+    }
+    nav ul {
+        font-size: 20px;
+    }
+}
   
-    .about-me {
-        width: 50%;
-        text-align: center;
+  /* Small smartphones */
+@media screen and (max-width: 576px) {
+    * {
+        justify-content: center;
     }
+    h1 {
+        font-size: 20px;
+    }
+    b, p {
+        font-size: 10px;
+    }
+    header img {
+        max-width: 100%;
+        height: auto;
+    }
+    nav {
+        padding: 1px 1px 1px 1px;
+        width: auto;
+    }
+    nav ul {
+        font-size: 15px;
+    }
+}
 
-    .portfolio {
-        width: 50%;
-        text-align: center;
-      }
-  
-    .contact {
-      width: 50%;
-      text-align: center;
-    }
-  }
-  
 /* end of media */
