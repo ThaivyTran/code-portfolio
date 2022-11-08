@@ -124,7 +124,7 @@ main {
 }
 
 .contact img:hover {
-    opacity:1;
+    opacity: 1;
     transition: 1s ease; 
 }
 
@@ -140,7 +140,7 @@ footer {
 
 /* Tablets */
 @media screen and (max-width: 992px) {
-    * {
+    *, .portfolio img{
         justify-content: center;
     }
     h1 {
@@ -164,7 +164,7 @@ footer {
   
   /* Large smartphones */
 @media screen and (max-width: 768px) {
-    * {
+    *, .portfolio img {
         justify-content: center;
     }
     h1 {
@@ -188,7 +188,7 @@ footer {
   
   /* Small smartphones */
 @media screen and (max-width: 576px) {
-    * {
+    *, a {
         justify-content: center;
     }
     h1 {
@@ -202,7 +202,6 @@ footer {
         height: auto;
     }
     nav {
-        padding: 1px 1px 1px 1px;
         width: auto;
     }
     nav ul {
